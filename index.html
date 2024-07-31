@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Holocaust Platformer</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body style="background-color: grey;">
+  <div id="Game_Container">
+    <canvas id="Game"></canvas>
+    <button id="Play" style="top:75%; left:50%">PLAY</button>
+    <button id="Back"
+      style="top:5%; left:5%;width:10%;height:16%;background: url('./back.png');background-size:contain;border:none;background-repeat: no-repeat;display:none"></button>
+    <button id="Prison 1"
+      style="top:25%; left:25%;width:20%;height:32%;background: url('./prison_ready.png');background-size:contain;background-repeat: no-repeat;border:none;display:none"></button>
+    <button id="Prison 2"
+      style="top:75%; left:25%;width:20%;height:32%;background: url('./prison_ready.png');background-size:contain;background-repeat: no-repeat;border:none;display:none"></button>
+    <button id="Prison 3"
+      style="top:25%; left:75%;width:20%;height:32%;background: url('./prison_ready.png');background-size:contain;background-repeat: no-repeat;border:none;display:none"></button>
+    <button id="Prison 4"
+      style="top:75%;left:75%;width:20%;height:32%;background: url('./prison_ready.png');background-size:contain;background-repeat: no-repeat;border:none;display:none"></button>
+
+  </div>
+  <button id="power 1"
+    style="top: 95px;left:900px;width:120px;height:120px;background:url('./healpower_locked.png');background-size:contain;display:none;background-repeat:no-repeat;border:none"></button>
+  <button id="power 2"
+    style="top: 250px;left:900px;width:120px;height:120px;background:url('./electricpower_locked.png');background-size:contain;background-repeat:no-repeat;display:none;border:none"></button>
+  <button id="power 3"
+    style="top: 405px;left:900px;width:120px;height:120px;background:url('./hastepower_locked.png');background-size:contain;display:none;background-repeat:no-repeat;border:none"></button>
+  <button id="highlighter"
+    style="top: 95px;left:900px;width:120px;height:120px;background-color:rgba(0, 255, 255, 0.3);background-size:contain;display:none;background-repeat:no-repeat;border-color: black;border-width: 5px;"></button>
+  <button id="highlighter2"
+    style="top: 95px;left:1000px;width:30px;height:120px;background-color:red;background-size:contain;display:none;background-repeat:no-repeat;border:none;"></button>
+  <button id="highlighter3"
+    style="top: 250px;left:1000px;width:30px;height:120px;background-color:red;background-size:contain;background-repeat:no-repeat;display:none;border:none;">
+    <button id="highlighter4"
+      style="top: 405px;left:1000px;width:30px;height:120px;background-color:red;background-size:contain;background-repeat:no-repeat;display:none;border:none;"></button>
+    <p>Hello. In
+      this game, you are Jojo Betzler, from Jojo Rabbit, and will rescue 4 Jews. They will tell you about their lives inside the labor camps. They will also
+      help you defeat the other prisons in order for you to rescue the rest of the prisons.<br><br>Keybinds:<br> Up or W
+      or Spacebar to jump<br> A or left arrow to move left<br> D or right arrow to move right<br> 1 to activate the
+      1st/topmost ability<br> 2 to activate the 2nd/middle ability<br> 3 to activate 3rd/bottommost
+      ability.<br><br>These levels are meant to be hard. Press the skip button to skip</p>
+    <button id="skip">Skip Level</button>
+    <script src="script.js"></script>
+</body>
+
+</html>
